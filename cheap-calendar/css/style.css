@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.calendar {
+    width: 80%;
+    margin: 10%;
+    text-align: center;
+}
+/* カレンダーの枠線 */
+table {
+    font-size: x-large;
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px #000 solid;
+}
+th, td {
+    line-height: 2.5em;
+    text-align: center;
+}
+/* 土曜日 */
+.saturday {
+    color: #00bfff;
+}
+/* 日曜日 */
+.sunday {
+    color: #ff4500;
+}
+/* 今日 */
+.today {
+    background: #fffacd;
+}
