@@ -152,7 +152,7 @@
         }
     ?>
     
-    <h2>8.トランザクション</h2>
+    <h2>8.トランザクション処理</h2>
     <?php
         try {
             $tdb = new SQLite3('../db/transaction.db');
