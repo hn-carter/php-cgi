@@ -1,0 +1,4 @@
+# ファイルをブラウザからアクセスできないように設定する
+<FilesMatch "^\.htaccess|.*\.db|CCounter\.php">
+  deny from all
+</FilesMatch>
