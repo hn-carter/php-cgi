@@ -17,3 +17,9 @@ PHPからSQLite3データベースを使う方法をメモしています。
 `sqlite3class` SQLite3 クラスを使用しています。
 
 `sqlite3pdo` PDOを使用しています。
+
+
+## アクセスカウンタ
+
+`counter` PHPとSQLite3で作ったテキスト表示アクセスカウンタ
+
